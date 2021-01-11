@@ -7,10 +7,10 @@ create table departments (
 );
 
 create table dept_emp (
-    emp_no int   not null,
-    dept_no varchar(4)   not null,
-	primary key (emp_no)
+    emp_no integer not null,
+    dept_no varchar(5) not null
 );
+
 
 create table dept_manager (
     dept_no varchar(4) not null,
@@ -36,11 +36,6 @@ create table titles (
     title_id varchar(5) not null,
 	title varchar(30) not null
 );
-
-
-
-
-
 
 
 
