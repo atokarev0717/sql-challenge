@@ -3,3 +3,4 @@ __pycache__/
 .DS_Store
 EmployeeSQL/config.py
 EmployeeSQL/.ipynb_checkpoints/
+EmployeeSQL/__pycache__/
